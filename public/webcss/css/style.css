@@ -2724,7 +2724,7 @@ input.searchbox:focus {
 .angle-top:before {
     background: none repeat scroll 0 0 #fff;
     content: "";
-    margin-top: -199px;
+    /* margin-top: -199px; */
     min-height: 150px;
     position: absolute;
     -webkit-transform: skewY(-2deg);

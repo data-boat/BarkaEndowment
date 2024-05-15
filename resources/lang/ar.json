@@ -5,9 +5,9 @@
     "Home": "الصفحة الرئيسية",
     "submit": "إرسال",
     "Back": "العوده",
-    "countries": "الدول",
+    "countries": "أهداف المؤسسة",
     "readmore": "المزيد",
-    "map": "شركاتنا موجودة في 5 دول مختلفة",
+    "map": "أهداف المؤسسة",
     "countriescount": "موجودين في خمس دول",
 "whatsapp":"واتساب",
 
@@ -30,7 +30,7 @@
 
     "result": "الإحصائيات",
 
-    "sectors": "القطاعات",
+    "sectors": "الرؤية والرسالة",
 
     "ResultFisrtName": "الركن الأول",
     "ResultFisrtNamear": "الركن الأول بالعربي",
@@ -44,7 +44,7 @@
     "ResultThrNamear": "الركن الثالث بالعربي",
     "Statistc3": "الإحصاء للركن الثالث",
 
-    "sectorpage": "صفحة القطاعات",
+    "sectorpage": "صفحة الرؤية والرسالة",
     "Sectortitle": "عنوان القطاع",
     "Sectortitlear": "عنوان القطاع بالعربية",
     "Sectordescription": "الوصف",
@@ -59,7 +59,7 @@
     "Sectorintoar": "المقدمة بالعربية",
     "Sectorbodyar": "الموضوع بالعربية",
     "Sectorconar": "الخاتمة بالعربية",
-    "oursectors": "قطاعتنا",
+    "oursectors": "الرؤية والرسالة",
     "Date": "التاريخ",
     "Partner with Us": "انظم إلينا",
 
