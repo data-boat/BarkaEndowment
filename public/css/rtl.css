@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #1c3f39;
+}
+/* Header/Logo Title */
+.header {
+    padding: 32px;
+    background: #1c3f39;
+    font-size: 18px;
+}
+.header button {
+    background: #ada65c;
+    border: none;
+    color: #ffffff;
+}
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    right: 0;
+    background: #1c3f39;
+    color: #ada65c;
+}
+.sidebar .text {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1c3f39;
+    letter-spacing: 1px;
+}
+.sidebar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+nav ul {
+    background: #1c3f39;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+nav ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+nav ul li a {
+    position: relative;
+    color: #ada65c;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 62px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-right: 3px solid transparent;
+}
+nav ul li a:hover {
+    color: #ada65c;
+    background: #1c3f39;
+    border-right-color: #ada65c;
+}
+nav ul li:active a {
+    color: #ada65c;
+    background: #1c3f39;
+    border-right-color: #ada65c;
+}
+nav ul ul {
+    position: static;
+    display: none;
+}
+nav ul .feat-show.show {
+    display: block;
+}
+nav ul .searv-show.show1 {
+    display: block;
+}
+nav ul ul li {
+    line-height: 42px;
+    border-bottom: none;
+}
+nav ul ul li a {
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-right: 80px;
+}
+nav ul li:active ul li a {
+    color: #e6e6e6;
+    background: #1b1b1b;
+    border-right-color: transparent;
+}
+nav ul li ul li a:hover {
+    color: #e6e6e6;
+    background: #1b1b1b;
+    border-right-color: transparent;
+}
+nav ul ul li a:hover {
+    color: #ffffff !important;
+    background: #ada65c !important;
+}
+nav ul li a i {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+    color: #ffffff;
+}
+nav ul li a i.rotate {
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.title {
+    padding-top: 15px;
+    margin-left: 46%;
+}
+.tabl,
+th,
+td {
+    background-color: #eae8d2c9;
+    margin: auto;
+    width: 70%;
+    border: 2px solid rgb(191, 193, 91);
+    margin-left: 5%;
+    direction: rtl;
+}
+
+.btn {
+    padding-top: 20px;
+    margin-left: 4%;
+    background-color: #bfc15b;
+    padding: 12px 16px;
+}
+.btn:hover {
+    background-color: #dcddcc;
+}
+
+.btnedit {
+    padding-top: 20px;
+    background-color: #bfc15b;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+.btnedit:hover {
+    background-color: #dcddcc;
+}
+.btndiv {
+    margin-left: 15%;
+}
+
+/* cmsedit */
+
+.form-group .form-control {
+    background-color: #bfc15b;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    color: #050505;
+    font-size: 1rem;
+    font-family: TajawalRegular, sans-serif;
+    border-radius: 3px;
+    border: 2px #1c3f39;
+}
+.marina-btn.apply[_ngcontent-hnq-c108] {
+    background-color: #1c3f39;
+}
+.ngx-datatable .datatable-header .datatable-header-inner {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0 0.5rem;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+    white-space: nowrap;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+.edit {
+    padding-top: 15px;
+    background-color: #eae8d2c9;
+    width: 50%;
+    border: 2px solid rgb(191, 193, 91);
+    margin-left: 23%;
+    direction: rtl;
+}
+.file {
+    padding-top: 15px;
+    margin-left: 49%;
+    direction: rtl;
+}
+.title {
+    padding-top: 15px;
+    margin-left: 26%;
+}
+.required:after {
+    content: " *";
+    color: red;
+}
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.labell {
+    direction: rtl;
+    margin-left: 37%;
+}
