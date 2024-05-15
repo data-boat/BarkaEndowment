@@ -14,7 +14,7 @@
     font-size: 18px;
 }
 .header button {
-    background: #ada65c;
+    background: #ffbc00;
     border: none;
     color: #ffffff;
 }
@@ -24,7 +24,7 @@
     height: 100%;
     left: 0;
     background: #1c3f39;
-    color: #ada65c;
+    color: #ffbc00;
 }
 .sidebar img {
     display: block;
@@ -53,7 +53,7 @@ nav ul li {
 }
 nav ul li a {
     position: relative;
-    color: #ada65c;
+    color: #ffbc00;
     text-decoration: none;
     font-size: 18px;
     padding-left: 2px;
@@ -63,14 +63,14 @@ nav ul li a {
     border-left: 3px solid transparent;
 }
 nav ul li a:hover {
-    color: #ada65c;
+    color: #ffbc00;
     background: #1c3f39;
-    border-left-color: #ada65c;
+    border-left-color: #ffbc00;
 }
 nav ul li:active a {
-    color: #ada65c;
+    color: #ffbc00;
     background: #1c3f39;
-    border-left-color: #ada65c;
+    border-left-color: #ffbc00;
 }
 nav ul ul {
     position: static;
@@ -103,7 +103,7 @@ nav ul li ul li a:hover {
 }
 nav ul ul li a:hover {
     color: #ffffff !important;
-    background: #ada65c !important;
+    background: #ffbc00 !important;
 }
 nav ul li a i {
     position: absolute;

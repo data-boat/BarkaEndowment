@@ -191,7 +191,7 @@ h6 {
     font-family: "Montserrat", sans-serif;
     margin-top: 0;
     text-transform: uppercase;
-    color: #ada65c;
+    color: #ffbc00;
     letter-spacing: 0.05em;
     font-weight: 700;
 }
@@ -4015,7 +4015,7 @@ p.footer-address {
 }
 
 .dropbtn {
-    background-color: #ada65c;
+    background-color: #ffbc00;
     color: white;
     /* padding: 16px;
   font-size: 16px; */

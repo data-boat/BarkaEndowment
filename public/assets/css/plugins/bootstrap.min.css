@@ -1649,7 +1649,7 @@ progress {
     margin-bottom: 1rem;
     color: #212529;
     vertical-align: top;
-    border-color: #ada65c;
+    border-color: #FFBC00;
 }
 .table > :not(caption) > * > * {
     padding: 0.5rem 0.5rem;
@@ -4291,7 +4291,7 @@ fieldset:disabled .btn {
 .card-header {
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    background-color: #ada65c;
+    background-color: #FFBC00;
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
@@ -4647,12 +4647,12 @@ fieldset:disabled .btn {
     color: #34383c;
 }
 .alert-success {
-    color: #ada65c;
-    background-color: #ada65c;
+    color: #FFBC00;
+    background-color: #FFBC00;
     border-color: #badbcc;
 }
 .alert-success .alert-link {
-    color: #ada65c;
+    color: #FFBC00;
 }
 .alert-info {
     color: #055160;

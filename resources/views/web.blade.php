@@ -287,7 +287,7 @@
           
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="fa fa-clock-o"></i>
+              <i style="color: #FFBC00; border-color: #FFBC00; " class="fa fa-clock-o"></i>
             </div>
             <h6 style="color: #fcfcfa;">{{ __('getintuch') }}</h6>
             <p style="color: #FFBC00;" >
@@ -346,16 +346,13 @@
 </form>
 <!-- end contact -->
 
-</br></br>
-</br>
-</br>
 
   <!-- Footer -->
-  <footer class="footer minimal bg-dark" style="">
+  <footer class="footer minimal bg-dark" style="background-color:#1C3F39;">
     <div class="container">
       <div class="row">
         <div>
-          <h2>Famous Investment</h2>
+          {{-- <h2>Famous Investment</h2> --}}
 
           <div class="socials footer-socials">
             <a href="https://twitter.com/famousinv"><i class="fa fa-twitter"></i></a>

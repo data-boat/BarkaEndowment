@@ -188,7 +188,7 @@ h6 {
     font-family: "Montserrat", sans-serif;
     margin-top: 0;
     text-transform: uppercase;
-    color: #ada65c;
+    color: #ffbc00;
     letter-spacing: 0.05em;
     font-weight: 700;
 }
@@ -1550,14 +1550,14 @@ p {
     height: 50px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 2px solid #FFBC00;
+    border: 2px solid #ffbc00;
     text-align: center;
     position: absolute;
     left: 280px;
 }
 .contact-icon i {
     font-size: 25px;
-    color: #FFBC00;
+    color: #ffbc00;
     line-height: 47px;
 }
 
@@ -3226,7 +3226,7 @@ textarea {
     height: 47px;
     line-height: 47px;
     border: 2px solid #e3e3e3;
-    background-color: transparent;
+    background-color: #fff;
     width: 100%;
     margin-bottom: 16px;
     padding: 0 16px;
@@ -3267,6 +3267,7 @@ textarea:focus {
     border-color: #00aeef;
     outline: none;
     box-shadow: none;
+    
 }
 
 textarea {
@@ -3590,7 +3591,7 @@ p.footer-address {
 }
 
 .dropbtn {
-    background-color: #ada65c;
+    background-color: #ffbc00;
     color: white;
     /* padding: 16px;
     font-size: 16px; */

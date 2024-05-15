@@ -66,7 +66,7 @@
 
     .wrapper .title {
       height: 90px;
-      background: #ada65c;
+      background: #FFBC00;
       border-radius: 5px 5px 0 0;
       color: #fff;
       font-size: 30px;
@@ -112,7 +112,7 @@
       height: 100%;
       color: #fff;
       font-size: 18px;
-      background: #ada65c;
+      background: #FFBC00;
       border: 1px solid #fff;
       border-radius: 5px 0 0 5px;
       display: flex;
@@ -139,7 +139,7 @@
       font-size: 20px;
       font-weight: 500;
       padding-left: 0px;
-      background: #ada65c;
+      background: #FFBC00;
       border: 1px solid #fff;
       cursor: pointer;
     }
