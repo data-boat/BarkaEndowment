@@ -6,6 +6,7 @@
     direction: rtl;
 }
 
+
 .figure {
     position: relative;
     width: 360px;
@@ -241,7 +242,8 @@ p {
     content: "";
     display: block;
     width: 48px;
-    border-bottom: 3px solid #e8e8e8;
+    border-bottom: 3px solid #ffbc00;
+    ;
     margin: 15px auto 15px;
 }
 
@@ -793,8 +795,9 @@ p {
   -------------------------------------------------------*/
 .service-item-box {
     background-color: #fff;
+    border: dashed;
     padding: 30px 40px;
-    margin-bottom: 30px;
+    margin-bottom: -96px;
     /* height: 430px;
     width: 265px; */
 }
@@ -2309,7 +2312,7 @@ input.searchbox:focus {
     content: "";
     /* margin-top: 1581px; */
     min-height: 91px;
-    position: absolute;
+    /* position: absolute; */
     -webkit-transform: skewY(-2deg);
     -moz-transform: skewY(-2deg);
     -ms-transform: skewY(-2deg);

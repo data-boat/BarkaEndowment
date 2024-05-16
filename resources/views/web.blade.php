@@ -51,11 +51,11 @@
 
 
           <div class="col-sm-6">
-            <div class="about-description mt-30">
-              <h4>{{ __('AboutUs') }}</h4>
+            <div class="about-description mt-30 ">
+              <h4 class=" text-center bottom-line">{{ __('AboutUs') }}</h4>
                 {{-- <img src="webcss/img/Maskgroup.png" /> --}}
               
-              <p >
+              <p style="text-align: justify;" >
                 @if (\Session::get('language') == 'en' )
                 {{$about->aboutdescription}}
                 @else
@@ -65,7 +65,12 @@
             </div>
             
           </div>
-
+          
+          <div class="col-sm-6">
+            <img class="Rectangle49" style="width: 474px; height: 328px; left: 75px; position: relative; background: linear-gradient(0deg, #56CACD 0%, #56CACD 100%); border-radius: 10px" src="webcss/img/Rect.png">
+            <img class="Rectangle50" style="width: 241px; height: 179px; top: -99px; position: relative; background: linear-gradient(0deg, #0B826F 0%, #0B826F 100%); border-radius: 10px" src="webcss/img/Rectt.png">
+    
+          </div>
         </div>
       </div>
   </div>
@@ -74,8 +79,7 @@
 
 
 
-
-  <section class="section-wrap process" style="background-image: url(webcss/img/Maskgroup.png)">
+  <section class="section-wrap process " style="background-image: url(webcss/img/Maskgroup.png)">
     <div class="container" id="Sectors">
       <div class="row heading">
         <div class="col-md-6 col-md-offset-3">
@@ -89,7 +93,7 @@
         <div class="col-md-6 service-item">
           <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
             
-              {{-- <img src="{{url('../storage/services/'.$service->icon)}}" /> --}}
+              <img style="padding-bottom: 15px" src="{{url('../storage/services/'.$service->icon)}}" />
            
             <h3>
               @if (\Session::get('language') == 'en' )
@@ -117,25 +121,117 @@
     </div>
   </section>
 
-  <section class="section-wrap-mp pricing" id="Companies">
+  <section style="background: #e5e5e5;" class="section-wrap-mp pricing" id="Companies">
     <div class="container">
       <div class="row heading">
+
+
         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
           <h3 class="text-center bottom-line">
             {{ __('map') }}
           </h3>
 
+
         </div>
+
+
+        
       </div>
  
 
-        <div class="figure" style="width: 1200px; height: 260px;">
-          {{-- <img class="image-main" src="webcss/img/map.png">
-          <img class="image-hover" src="webcss/img/KSA.png">
-          <img class="image-hover" src="webcss/img/UAE.png">
-          <img class="image-hover" src="webcss/img/sudan.png">
-          <img class="image-hover" src="webcss/img/Yemen.png">
-          <img class="image-hover" src="webcss/img/oman.png"> --}}
+        <div style=" width: 1300px; height: 360px;">
+
+
+
+          <div class="Goals"
+          style="width: 480px; height: 90px; left: 693px; border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          <div class="Rectangle65"
+            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
+          </div>
+          <div class="Group14" style="width: 114.57px; height: 139px; left: 620.84px; top: 1.81px; position: absolute">
+            <div class="Ellipse12"
+              style="width: 60px; height: 60px; left: -210px; top: 13px; position: absolute; background: #0B826F; border-radius: 9999px">
+            </div>
+            <div
+              style="left: -186px; top: -25px; position: absolute; text-align: right; color: rgb(252, 251, 251); font-size: 30px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
+              1</div>
+          </div>
+          <div
+            style="width: 560.12px; height: 90.63px; left: -156px; top: 26.28px; position: absolute; text-align: right; color: black; font-size: 15px; font-family: Poppins; font-weight: 400; text-transform: capitalize; line-height: 23px; word-wrap: break-word">
+            تمكين المجتمع بكافة أطيافه من المساهمة في انشاء المشاريع الوقفية والإشراف </br> عليها وإدارتها 
+            وتنميتها بالطرق المثلى
+            لتكون صدقة جارية للواقف</div>
+        </div>
+        <div class="Goals"
+          style="width: 480px; height: 90px; top: 1975px; left: 105px;  border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          <div class="Rectangle65"
+            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
+          </div>
+          <div class="Group14" style="width: 114.57px; height: 139px; left: 620.84px; top: 1.81px; position: absolute">
+            <div class="Ellipse12"
+              style="width: 60px; height: 60px; left: -209.12px;
+              top: 12.91px; position: absolute; background: #0B826F; border-radius: 9999px">
+            </div>
+            <div
+              style="left: -190px;
+              top: -27px; position: absolute; text-align: right; color: rgb(248, 246, 246); font-size: 40px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
+              2</div>
+          </div>
+          <div
+            style="width: 560.12px; height: 90.63px; left: -164.12px;
+            top: 17.28px; position: absolute; text-align: right; color: black; font-size: 15pxpx; font-family: Poppins; font-weight: 500; text-transform: capitalize; line-height: 23pxpx; word-wrap: break-word">
+            إحياء سنة الوقف وتجديد الدعوة له من خلال مشروعات ذات أبعاد تنموية</br> وبطرق استثمارية مبتكرة.</div>
+        </div>
+        <div class="Goals"
+          style="width: 480px; height: 90px; left: 29px;border-radius: 68px; top: 2100px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          <div class="Rectangle65"
+            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
+          </div>
+          <div class="Group14" style="width: 40px; height: 40px; left: 620.84px; top: 1.81px; position: absolute">
+            <div class="Ellipse12"
+              style="width: 60px; height: 60px; left: -211px;
+              top: 13.28px;; position: absolute; background: #0B826F; border-radius: 9999px">
+            </div>
+            <div
+              style="left: -193px;
+              top: -26px; position: absolute; text-align: right; color: rgb(252, 251, 251); font-size: 40px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
+              4</div>
+          </div>
+          <div
+            style="width: 560.12px; height: 90.63px; left: -158px;
+            top: 13.28px; position: absolute; text-align: right; color: black; font-size: 15px; font-family: Poppins; font-weight: 500; text-transform: capitalize; line-height: 23px; word-wrap: break-word">
+            إدارة واستثمار وإنشاء الأصول الوقفية وتطويرها وتجديد دورها التنموي للانتقال </br>بها من فكرة الإنفاق المباشر إلى ايجاد
+            المصدر المالي المستدام الداعم لمختلف </div>
+        </div>
+        <div class="Goals"
+          style="width: 480px; height: 90px; left: 609px;border-radius: 68px; top: 2060px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          <div class="Rectangle65"
+            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
+          </div>
+          <div class="Group14" style="width: 114.57px; height: 139px; left: 620.84px; top: 1.81px; position: absolute">
+            <div class="Ellipse12"
+              style="width: 60px; height: 60px; left: -213px;
+              top: 14px; position: absolute; background: #0B826F; border-radius: 9999px">
+            </div>
+            <div
+              style="left: -190px; top: -24px; position: absolute; text-align: right; color: rgb(254, 252, 252); font-size: 40.58px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
+              3</div>
+          </div>
+          <div
+            style="width: 560.12px; height: 90.63px; left: -163.12px; top: 26.28px; position: absolute; text-align: right; color: black; font-size: 15px; font-family: Poppins; font-weight: 500; text-transform: capitalize; line-height: 23px; word-wrap: break-word">
+            إعادة تنظيم الأوقاف القديمة بالولاية وتحديثها والانتقال بها من الإدارة الفردية </br>إلى العمل المؤسسي المتكامل.</div>
+        </div>
+  
+
+      
+
+
+          
+  
+
+
+
+
         </div>
 
       </div>
