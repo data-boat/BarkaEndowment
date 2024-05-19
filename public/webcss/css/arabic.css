@@ -6,7 +6,6 @@
     direction: rtl;
 }
 
-
 .figure {
     position: relative;
     width: 360px;
@@ -69,7 +68,7 @@
 
 .section-wrap,
 .section-wrap-mp {
-    padding: 150px 0;
+    padding: 40px 0;
     overflow: hidden;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -243,7 +242,6 @@ p {
     display: block;
     width: 48px;
     border-bottom: 3px solid #ffbc00;
-    ;
     margin: 15px auto 15px;
 }
 
@@ -794,8 +792,9 @@ p {
 /* Services
   -------------------------------------------------------*/
 .service-item-box {
-    background-color: #fff;
+    background-color: transparent;
     border: dashed;
+    border-color: #fff;
     padding: 30px 40px;
     margin-bottom: -96px;
     /* height: 430px;
@@ -815,6 +814,20 @@ p {
     line-height: 70px;
     color: #fff;
 }
+.service-item-box
+    p {
+        font-size: 18px;
+        color: #fefcfc;
+        font-weight: normal;
+        line-height: 25px;
+        direction: rtl;
+}
+.service-item-box a:hover i {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    }
+
 
 /*Hi Icons*/
 .hi-icon {
@@ -3079,7 +3092,7 @@ ol.numbers {
     background-color: #111;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    margin-top: 27px;
+    /* margin-top: 27px; */
 }
 .btn.btn-color {
     background-color: #bfa67a;
@@ -3270,7 +3283,6 @@ textarea:focus {
     border-color: #00aeef;
     outline: none;
     box-shadow: none;
-    
 }
 
 textarea {

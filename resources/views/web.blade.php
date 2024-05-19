@@ -45,7 +45,7 @@
 
 
     <!-- About us / Progress Bars -->
-    <section class="section-wrap pt-110 angle-bottom" id="About-Us">
+    <section class="section-wrap pt-80 " id="About-Us">
       <div class="container">
         <div class="row mt-minus-30">
 
@@ -79,7 +79,7 @@
 
 
 
-  <section class="section-wrap process " style="background-image: url(webcss/img/Maskgroup.png)">
+  <section class="section-wrap process " style="padding-bottom: 134px; background-image: url(webcss/img/Maskgroup.png)">
     <div class="container" id="Sectors">
       <div class="row heading">
         <div class="col-md-6 col-md-offset-3">
@@ -88,9 +88,9 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" style="display: flex; justify-content: center;">
         @foreach($service as $service)
-        <div class="col-md-6 service-item">
+        <div class="col-md-4 service-item" >
           <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
             
               <img style="padding-bottom: 15px" src="{{url('../storage/services/'.$service->icon)}}" />
@@ -102,6 +102,7 @@
               {{$service->titalar}}
               @endif
             </h3>
+            
             <p>
               @if (\Session::get('language') == 'en' )
               {{$service->description}}
@@ -121,7 +122,8 @@
     </div>
   </section>
 
-  <section style="background: #e5e5e5;" class="section-wrap-mp pricing" id="Companies">
+  <section style="    padding: 40px;
+   background: #e5e5e5;" id="Companies">
     <div class="container">
       <div class="row heading">
 
@@ -144,7 +146,7 @@
 
 
           <div class="Goals"
-          style="width: 480px; height: 90px; left: 693px; border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          style="width: 480px; top: 1721px; height: 90px; left: 740px; border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
           <div class="Rectangle65"
             style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
           </div>
@@ -163,7 +165,8 @@
             لتكون صدقة جارية للواقف</div>
         </div>
         <div class="Goals"
-          style="width: 480px; height: 90px; top: 1975px; left: 105px;  border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          style="width: 480px; height: 90px;     top: 1721px;
+          left: 148px;  border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
           <div class="Rectangle65"
             style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
           </div>
@@ -183,7 +186,7 @@
             إحياء سنة الوقف وتجديد الدعوة له من خلال مشروعات ذات أبعاد تنموية</br> وبطرق استثمارية مبتكرة.</div>
         </div>
         <div class="Goals"
-          style="width: 480px; height: 90px; left: 29px;border-radius: 68px; top: 2100px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          style="width: 480px; height: 90px; left: 60px;border-radius: 68px; top: 1880px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
           <div class="Rectangle65"
             style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
           </div>
@@ -204,7 +207,7 @@
             المصدر المالي المستدام الداعم لمختلف </div>
         </div>
         <div class="Goals"
-          style="width: 480px; height: 90px; left: 609px;border-radius: 68px; top: 2060px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
+          style="width: 480px; height: 90px; left: 680px; border-radius: 68px; top: 1880px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
           <div class="Rectangle65"
             style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
           </div>

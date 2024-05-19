@@ -47,9 +47,16 @@
             <!-- Logo -->
             <div class="logo-container">
               <div class="logo-wrap local-scroll">
-                <a href="/">
-                  {{-- <img class="logo" src="webcss/img/llog.png" alt="logo" /> --}}
-                </a>
+
+                            <button onclick="" style=" padding-top: 5px;
+                            /* border-color: #fff; */
+                            background-color: #1c3f39;
+                            padding: 12px 16px;
+                            font-size: 16px;" class="btn btn-lg btn-color btn-submit">{{ __('إدارة المشاريع') }} </button>
+                <i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
+
+                {{-- <a href="/">
+إدارة المشاريع                </a> --}}
               </div>
             </div>
           </div>
@@ -73,9 +80,9 @@
                 <li class="{{ Request::is('contact') ? 'active' : '' }}">
                   <a href="#contact">{{ __('contactus') }}</a>
                 </li>
-                <li class="{{ Request::is('Partner with Us') ? 'active' : '' }}">
+                {{-- <li class="{{ Request::is('Partner with Us') ? 'active' : '' }}">
                   <a href="/joinus">{{ __('Partner with Us') }}</a>
-                </li>
+                </li> --}}
               </ul>
             </div>
           </div>
