@@ -90,7 +90,8 @@
           <div class="menu-socials hidden-sm hidden-xs">
             <ul>
               <li>
-                <button class="lang" value="{{ \Session::get('language') == 'en' ? 'ar' : 'en' }}"> {{ \Session::get('language') == 'en' ? 'AR' : 'EN' }}</button>
+                <button class="lang" value="ar">AR</button>
+                {{-- <button class="lang" value="{{ \Session::get('language') == 'en' ? 'ar' : 'en' }}"> {{ \Session::get('language') == 'en' ? 'AR' : 'EN' }}</button> --}}
 
               </li>
              
