@@ -39,7 +39,7 @@
             <tr>
                 <td>{{$service->tital}} ( {{$service->titalar}} )</td>
                 <td>
-                    {{-- <a href="services/details/{{$service->id}}"><i class='fas fa-info-circle'>details</i></a> --}}
+                    <a href="services/details/{{$service->id}}"><i class='fas fa-info-circle'>details</i></a>
                     <a href="services/edit/{{$service->id}}"><i class='fas fa-edit'>edit</i></a>
                 </td>
 

@@ -48,18 +48,18 @@
             </div>
 
             <br />
-            {{-- <div>
+            <div>
                 <label class="labell ">{{ __('Sectorimg') }}</label><br />
                 <input class="file" type="file" name="file_path" value="{{$services->file_path}}"><img style="width: 50px; height: 50px ;" src="{{url('../storage/services/'.$services->file_path)}}" /></input>
             </div>
             <br />            <br />
-            <br /> --}}
+            <br />
 
             <div>
                 <label class="labell required" require>{{ __('Sectoricon') }}</label><br />
                 <input class="file" type="file" name="icon" value="{{$services->icon}}"><img style="width: 50px; height: 50px" src="{{url('../storage/services/'.$services->icon)}}" /></input>
             </div>
-            {{-- <br />            <br />
+            <br />            <br />
             <br />
 
             <div>
@@ -111,7 +111,7 @@
             <div>
                 <label class="labell ">{{ __('Date') }}</label><br />
                 <input class="edit" type="date" name="Date" value="{{$services->Date}}">
-            </div> --}}
+            </div>
             <br />
             <div class="btndiv">
                 <button class="btnedit submit-code" type="submit">{{ __('submit') }}</button>&nbsp;&nbsp;&nbsp;<button class="btnedit"><a href="/services">{{ __('Back') }}</a></button>

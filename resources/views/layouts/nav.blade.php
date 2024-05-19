@@ -1,5 +1,5 @@
 <head>
-  <title>Famouse</title>
+  <title>Barka Endowment Association</title>
 
   <meta charset="utf-8" />
 
@@ -90,8 +90,7 @@
           <div class="menu-socials hidden-sm hidden-xs">
             <ul>
               <li>
-                <button class="lang" value="ar">AR</button>
-                {{-- <button class="lang" value="{{ \Session::get('language') == 'en' ? 'ar' : 'en' }}"> {{ \Session::get('language') == 'en' ? 'AR' : 'EN' }}</button> --}}
+                <button class="lang" value="{{ \Session::get('language') == 'en' ? 'ar' : 'en' }}"> {{ \Session::get('language') == 'en' ? 'AR' : 'EN' }}</button>
 
               </li>
              
@@ -99,10 +98,10 @@
                 <a href="#"><i class="fa fa-linkedin"></i></a>
               </li>
               <li>
-                <a href="https://instagram.com/famous.inv?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                <a href="https://databoat.om/"><i class="fa fa-instagram"></i></a>
               </li>
               <li>
-                <a href="https://twitter.com/famousinv"><i class="fa fa-twitter"></i></a>
+                <a href="https://databoat.om/"><i class="fa fa-twitter"></i></a>
               </li>
             </ul>
           </div>

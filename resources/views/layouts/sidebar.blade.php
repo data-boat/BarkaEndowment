@@ -12,7 +12,9 @@
                 <ul class="feat-show">
                     <li> <a href="/home" class="w3-bar-item w3-button">{{ __('Home') }}</a></li>
                     <li><a href="/about" class="w3-bar-item w3-button">{{ __('AboutUs') }}</a></li>
-                    <li><a href="/services" class="w3-bar-item w3-button">{{ __('sectors') }}</a></li>
+                    <li><a href="/services" class="w3-bar-item w3-button">{{ __('VISION') }}</a></li>
+                    <li><a href="/objective" class="w3-bar-item w3-button">{{ __('OBJECTIV') }}</a></li>
+
 
 
                 </ul>
@@ -23,7 +25,7 @@
                 </a>
                 <ul class="feat-show">
                     <li> <a href="/contactus" class="w3-bar-item w3-button">{{ __('contactus') }}</a></li>
-                    <li> <a href="/form" class="w3-bar-item w3-button">{{ __('form') }}</a></li>
+                    {{-- <li> <a href="/form" class="w3-bar-item w3-button">{{ __('form') }}</a></li> --}}
 
 
 

@@ -88,11 +88,11 @@
         <div class="container">
             <div class="row">
                 <div>
-                    <h2>Famous Investment</h2>
+                    <h2>Barka Endowment Association</h2>
 
                     <div class="socials footer-socials">
-                        <a href="https://twitter.com/famousinv"><i class="fa fa-twitter"></i></a>
-                        <a href="https://instagram.com/famous.inv?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                        <a href="https://databoat.om/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://databoat.om/"><i class="fa fa-instagram"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>
                     </div>
 

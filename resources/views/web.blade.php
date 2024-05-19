@@ -55,7 +55,7 @@
               <h4 class=" text-center bottom-line">{{ __('AboutUs') }}</h4>
                 {{-- <img src="webcss/img/Maskgroup.png" /> --}}
               
-              <p style="text-align: justify;" >
+              <p style="text-align: justify; color:#7a7a7a" >
                 @if (\Session::get('language') == 'en' )
                 {{$about->aboutdescription}}
                 @else
@@ -75,7 +75,6 @@
       </div>
   </div>
   </section>
-
 
 
 
@@ -128,6 +127,9 @@
       <div class="row heading">
 
 
+  
+
+
         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
           <h3 class="text-center bottom-line">
             {{ __('map') }}
@@ -135,7 +137,6 @@
 
 
         </div>
-
 
         
       </div>
@@ -269,7 +270,7 @@
               <i class="fa fa-clock-o"></i>
             </div>
             <h6 style="color: #fcfcfa;" >{{ __('getintuch') }}</h6>
-            <p>
+            <p style="color: #FFBC00;">
               Sun-Thur: 9:00 – 6:00
 
             </p>
@@ -282,7 +283,7 @@
               <i class="icon icon-Pointer"></i>
             </div>
             <h6 style="color: #fcfcfa;">{{ __('address') }}</h6>
-            <p>
+            <p style="color: #FFBC00;">
               oman,
               Muscat, Sultan Qaboos City,</br> Al Manal Building , floor P,</br> Office Number 702
 
@@ -451,11 +452,11 @@
     <div class="container">
       <div class="row">
         <div>
-          {{-- <h2>Famous Investment</h2> --}}
+          {{-- <h2>famous Investment</h2> --}}
 
           <div class="socials footer-socials">
-            <a href="https://twitter.com/famousinv"><i class="fa fa-twitter"></i></a>
-            <a href="https://instagram.com/famous.inv?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+            <a href="https://databoat.om/"><i class="fa fa-twitter"></i></a>
+            <a href="https://databoat.om/"><i class="fa fa-instagram"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
           </div>
 
