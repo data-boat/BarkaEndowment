@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
-
+use App\Http\Controllers\ObjectiveController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -93,7 +93,8 @@ Route::post('/work/update/{id}', 'App\Http\Controllers\PagesWorkController@updat
 Route::get('/work/delete/{id}', 'App\Http\Controllers\PagesWorkController@delete');
 Route::post('/work/destroy/{id}', 'App\Http\Controllers\PagesWorkController@destroy');
 
-
+//objectives
+Route::resource('objectives', ObjectiveController::class);
 //about us
 Route::get('/about', [\App\Http\Controllers\PagesAboutUsController::class, 'index'])->middleware(['auth']);
 Route::post('/about/store', 'App\Http\Controllers\PagesAboutUsController@store')->middleware(['auth']);
