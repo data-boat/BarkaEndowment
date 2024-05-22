@@ -4,7 +4,7 @@
      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"  />  
           <style>
         .Goals {
-            width: 480px;
+            width: 545px;
             height: 90px;
             border-radius: 68px;
             position: absolute;
@@ -12,7 +12,7 @@
         }
 
         .Rectangle65 {
-            width: 480px;
+            width: 545px;
             height: 90px;
             left: 0px;
             top: 0px;
@@ -32,7 +32,7 @@
         .Ellipse12 {
             width: 60px;
             height: 60px;
-            left: -210px;
+            left: -150px;
             top: 13px;
             position: absolute;
             background: #0B826F;
@@ -40,7 +40,7 @@
         }
 
         .GroupNumber {
-            left: -186px;
+            left: -130px;
             top: -25px;
             position: absolute;
             text-align: right;
@@ -54,11 +54,11 @@
         }
 
         .GoalText {
-            width: 560.12px;
-            height: 90.63px;
-            left: -156px;
+            /* width: 560.12px;
+            height: 90.63px; */
+            /* left: -156px; */
             top: 26.28px;
-            position: absolute;
+            position: inherit;
             text-align: right;
             color: black;
             font-size: 15px;
@@ -193,44 +193,36 @@
     <div class="container">
       <div class="row heading">
 
-
-  
-
-
         <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
           <h3 class="text-center bottom-line">
             {{ __('map') }}
           </h3>
 
-
         </div>
-
         
       </div>
  
 
         <div style=" width: 1300px; height: 360px;">
 
-
-@foreach ($objectives as $index => $goal)
-        <div class="Goals" style="top: {{ 1721 + ($index * 159) }}px; left: {{ 740 - ($index % 2) * 592 }}px;">
-            <div class="Rectangle65"></div>
-            <div class="Group14">
-                <div class="Ellipse12"></div>
-                <div class="GroupNumber">{{$goal->count()}}</div>
-            </div>
-            <div class="GoalText">
-                {{ $goal->title_en }}
-            </div>
-        </div>
-    @endforeach
+            @foreach ($objectives as $index => $goal)
+                    <div class="Goals" style="top: {{ 1721 + ($index * 70) }}px; left: {{ 683 - ($index % 2) * 592 }}px;">
+                        <div class="Rectangle65"></div>
+                        <div class="Group14">
+                            <div class="Ellipse12"></div>
+                            <div class="GroupNumber">{{$goal->count()}}</div>
+                        </div>
+                        <div class="GoalText">
+                            {{ $goal->title_en }}
+                        </div>
+                    </div>
+                @endforeach
 
         </div>
 
       </div>
 
-    </div>
-    </div>
+  
   </section>
 
 <!-- Contact -->
