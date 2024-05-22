@@ -1,7 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-           <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"  />  
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"  />  
+          <style>
+        .Goals {
+            width: 480px;
+            height: 90px;
+            border-radius: 68px;
+            position: absolute;
+            box-shadow: 4.5317px 9.0634px 9.0634px rgba(0, 0, 0, 0.25);
+        }
+
+        .Rectangle65 {
+            width: 480px;
+            height: 90px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: white;
+            border-radius: 72.51px;
+        }
+
+        .Group14 {
+            width: 114.57px;
+            height: 139px;
+            left: 620.84px;
+            top: 1.81px;
+            position: absolute;
+        }
+
+        .Ellipse12 {
+            width: 60px;
+            height: 60px;
+            left: -210px;
+            top: 13px;
+            position: absolute;
+            background: #0B826F;
+            border-radius: 9999px;
+        }
+
+        .GroupNumber {
+            left: -186px;
+            top: -25px;
+            position: absolute;
+            text-align: right;
+            color: rgb(252, 251, 251);
+            font-size: 30px;
+            font-family: Pragati Narrow;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 138.95px;
+            word-wrap: break-word;
+        }
+
+        .GoalText {
+            width: 560.12px;
+            height: 90.63px;
+            left: -156px;
+            top: 26.28px;
+            position: absolute;
+            text-align: right;
+            color: black;
+            font-size: 15px;
+            font-family: Poppins;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 23px;
+            word-wrap: break-word;
+        }
+    </style>
     </head>
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
 <!-- Navigation -->
@@ -145,96 +212,18 @@
         <div style=" width: 1300px; height: 360px;">
 
 
-
-          <div class="Goals"
-          style="width: 480px; top: 1721px; height: 90px; left: 740px; border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
-          <div class="Rectangle65"
-            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
-          </div>
-          <div class="Group14" style="width: 114.57px; height: 139px; left: 620.84px; top: 1.81px; position: absolute">
-            <div class="Ellipse12"
-              style="width: 60px; height: 60px; left: -210px; top: 13px; position: absolute; background: #0B826F; border-radius: 9999px">
+@foreach ($objectives as $index => $goal)
+        <div class="Goals" style="top: {{ 1721 + ($index * 159) }}px; left: {{ 740 - ($index % 2) * 592 }}px;">
+            <div class="Rectangle65"></div>
+            <div class="Group14">
+                <div class="Ellipse12"></div>
+                <div class="GroupNumber">{{$goal->count()}}</div>
             </div>
-            <div
-              style="left: -186px; top: -25px; position: absolute; text-align: right; color: rgb(252, 251, 251); font-size: 30px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
-              1</div>
-          </div>
-          <div
-            style="width: 560.12px; height: 90.63px; left: -156px; top: 26.28px; position: absolute; text-align: right; color: black; font-size: 15px; font-family: Poppins; font-weight: 400; text-transform: capitalize; line-height: 23px; word-wrap: break-word">
-            تمكين المجتمع بكافة أطيافه من المساهمة في انشاء المشاريع الوقفية والإشراف </br> عليها وإدارتها 
-            وتنميتها بالطرق المثلى
-            لتكون صدقة جارية للواقف</div>
-        </div>
-        <div class="Goals"
-          style="width: 480px; height: 90px;     top: 1721px;
-          left: 148px;  border-radius: 68px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
-          <div class="Rectangle65"
-            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
-          </div>
-          <div class="Group14" style="width: 114.57px; height: 139px; left: 620.84px; top: 1.81px; position: absolute">
-            <div class="Ellipse12"
-              style="width: 60px; height: 60px; left: -209.12px;
-              top: 12.91px; position: absolute; background: #0B826F; border-radius: 9999px">
+            <div class="GoalText">
+                {{ $goal->title_en }}
             </div>
-            <div
-              style="left: -190px;
-              top: -27px; position: absolute; text-align: right; color: rgb(248, 246, 246); font-size: 40px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
-              2</div>
-          </div>
-          <div
-            style="width: 560.12px; height: 90.63px; left: -164.12px;
-            top: 17.28px; position: absolute; text-align: right; color: black; font-size: 15pxpx; font-family: Poppins; font-weight: 500; text-transform: capitalize; line-height: 23pxpx; word-wrap: break-word">
-            إحياء سنة الوقف وتجديد الدعوة له من خلال مشروعات ذات أبعاد تنموية</br> وبطرق استثمارية مبتكرة.</div>
         </div>
-        <div class="Goals"
-          style="width: 480px; height: 90px; left: 60px;border-radius: 68px; top: 1880px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
-          <div class="Rectangle65"
-            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
-          </div>
-          <div class="Group14" style="width: 40px; height: 40px; left: 620.84px; top: 1.81px; position: absolute">
-            <div class="Ellipse12"
-              style="width: 60px; height: 60px; left: -211px;
-              top: 13.28px;; position: absolute; background: #0B826F; border-radius: 9999px">
-            </div>
-            <div
-              style="left: -193px;
-              top: -26px; position: absolute; text-align: right; color: rgb(252, 251, 251); font-size: 40px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
-              4</div>
-          </div>
-          <div
-            style="width: 560.12px; height: 90.63px; left: -158px;
-            top: 13.28px; position: absolute; text-align: right; color: black; font-size: 15px; font-family: Poppins; font-weight: 500; text-transform: capitalize; line-height: 23px; word-wrap: break-word">
-            إدارة واستثمار وإنشاء الأصول الوقفية وتطويرها وتجديد دورها التنموي للانتقال </br>بها من فكرة الإنفاق المباشر إلى ايجاد
-            المصدر المالي المستدام الداعم لمختلف </div>
-        </div>
-        <div class="Goals"
-          style="width: 480px; height: 90px; left: 680px; border-radius: 68px; top: 1880px; position: absolute; box-shadow: 4.531680107116699px 9.063360214233398px 9.063360214233398px rgba(0, 0, 0, 0.25)">
-          <div class="Rectangle65"
-            style="width: 480px; height: 90px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 72.51px">
-          </div>
-          <div class="Group14" style="width: 114.57px; height: 139px; left: 620.84px; top: 1.81px; position: absolute">
-            <div class="Ellipse12"
-              style="width: 60px; height: 60px; left: -213px;
-              top: 14px; position: absolute; background: #0B826F; border-radius: 9999px">
-            </div>
-            <div
-              style="left: -190px; top: -24px; position: absolute; text-align: right; color: rgb(254, 252, 252); font-size: 40.58px; font-family: Pragati Narrow; font-weight: 700; text-transform: capitalize; line-height: 138.95px; word-wrap: break-word">
-              3</div>
-          </div>
-          <div
-            style="width: 560.12px; height: 90.63px; left: -163.12px; top: 26.28px; position: absolute; text-align: right; color: black; font-size: 15px; font-family: Poppins; font-weight: 500; text-transform: capitalize; line-height: 23px; word-wrap: break-word">
-            إعادة تنظيم الأوقاف القديمة بالولاية وتحديثها والانتقال بها من الإدارة الفردية </br>إلى العمل المؤسسي المتكامل.</div>
-        </div>
-  
-
-      
-
-
-          
-  
-
-
-
+    @endforeach
 
         </div>
 
