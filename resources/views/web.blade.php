@@ -188,7 +188,7 @@
     </div>
   </section>
 
-  <section style="    padding: 40px;
+  <section class="section-wrap process " style="    padding: 40px;
    background: #e5e5e5;" id="Companies">
     <div class="container">
       <div class="row heading">
@@ -206,7 +206,7 @@
         <div style=" width: 1300px; height: 360px;">
 
             @foreach ($objectives as $index => $goal)
-                    <div class="Goals" style="top: {{ 1721 + ($index * 70) }}px; left: {{ 683 - ($index % 2) * 592 }}px;">
+                    <div class="Goals" style="top: {{ 1890 + ($index * 70) }}px; left: {{ 755 - ($index % 2) * 592 }}px;">
                         <div class="Rectangle65"></div>
                         <div class="Group14">
                             <div class="Ellipse12"></div>
