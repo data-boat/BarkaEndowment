@@ -3,71 +3,120 @@
     <head>
      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"  />  
           <style>
-        .Goals {
-            width: 545px;
-            height: 90px;
-            border-radius: 68px;
-            position: absolute;
-            box-shadow: 4.5317px 9.0634px 9.0634px rgba(0, 0, 0, 0.25);
-        }
+     .Goals {
+    width: 480px;
+    height: 90px;
+    border-radius: 68px;
+    position: absolute;
+    box-shadow: 4.5317px 9.0634px 9.0634px rgba(0, 0, 0, 0.25);
+}
 
-        .Rectangle65 {
-            width: 545px;
-            height: 90px;
-            left: 0px;
-            top: 0px;
-            position: absolute;
-            background: white;
-            border-radius: 72.51px;
-        }
+.Rectangle65 {
+    width: 480px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 72.51px;
+}
 
-        .Group14 {
-            width: 114.57px;
-            height: 139px;
-            left: 620.84px;
-            top: 1.81px;
-            position: absolute;
-        }
+.Group14 {
+    width: 114.57px;
+    height: 139px;
+    left: 620.84px;
+    top: 1.81px;
+    position: absolute;
+}
 
-        .Ellipse12 {
-            width: 60px;
-            height: 60px;
-            left: -150px;
-            top: 13px;
-            position: absolute;
-            background: #0B826F;
-            border-radius: 9999px;
-        }
+.Ellipse12 {
+    width: 60px;
+    height: 60px;
+    left: -210px;
+    top: 13px;
+    position: absolute;
+    background: #0B826F;
+    border-radius: 9999px;
+}
 
-        .GroupNumber {
-            left: -130px;
-            top: -25px;
-            position: absolute;
-            text-align: right;
-            color: rgb(252, 251, 251);
-            font-size: 30px;
-            font-family: Pragati Narrow;
-            font-weight: 700;
-            text-transform: capitalize;
-            line-height: 138.95px;
-            word-wrap: break-word;
-        }
+.GroupNumber {
+    left: -186px;
+    top: -25px;
+    position: absolute;
+    text-align: right;
+    color: rgb(252, 251, 251);
+    font-size: 30px;
+    font-family: Pragati Narrow;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 138.95px;
+    word-wrap: break-word;
+}
 
-        .GoalText {
-            /* width: 560.12px;
-            height: 90.63px; */
-            /* left: -156px; */
-            top: 26.28px;
-            position: inherit;
-            text-align: right;
-            color: black;
-            font-size: 15px;
-            font-family: Poppins;
-            font-weight: 400;
-            text-transform: capitalize;
-            line-height: 23px;
-            word-wrap: break-word;
-        }
+.GoalText {
+    width: 560.12px;
+    height: 90.63px;
+    left: -156px;
+    top: 26.28px;
+    position: absolute;
+    text-align: right;
+    color: black;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 23px;
+    word-wrap: break-word;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .Goals {
+        width: 360px;
+        height: 70px;
+    }
+    .Rectangle65 {
+        width: 360px;
+        height: 70px;
+    }
+    .GoalText {
+        width: 420px;
+        font-size: 12px;
+    }
+    .Ellipse12 {
+        width: 50px;
+        height: 50px;
+        left: -160px;
+        top: 10px;
+    }
+    .GroupNumber {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Goals {
+        width: 320px;
+        height: 60px;
+    }
+    .Rectangle65 {
+        width: 320px;
+        height: 60px;
+    }
+    .GoalText {
+        width: 380px;
+        font-size: 10px;
+    }
+    .Ellipse12 {
+        width: 40px;
+        height: 40px;
+        left: -140px;
+        top: 8px;
+    }
+    .GroupNumber {
+        font-size: 20px;
+    }
+}
     </style>
     </head>
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
@@ -188,7 +237,7 @@
     </div>
   </section>
 
-  <section class="section-wrap process " style="    padding: 40px;
+  <section class="section-wrap process " style="
    background: #e5e5e5;" id="Companies">
     <div class="container">
       <div class="row heading">
@@ -205,18 +254,18 @@
 
         <div style=" width: 1300px; height: 360px;">
 
-            @foreach ($objectives as $index => $goal)
-                    <div class="Goals" style="top: {{ 1890 + ($index * 70) }}px; left: {{ 755 - ($index % 2) * 592 }}px;">
-                        <div class="Rectangle65"></div>
-                        <div class="Group14">
-                            <div class="Ellipse12"></div>
-                            <div class="GroupNumber">{{$goal->count()}}</div>
-                        </div>
-                        <div class="GoalText">
-                            {{ $goal->title_en }}
-                        </div>
-                    </div>
-                @endforeach
+             @foreach ($objectives as $index => $goal)
+        <div class="Goals" style="top: {{ 1721 + ($index * 159) }}px; left: {{ 740 - ($index % 2) * 592 }}px;">
+            <div class="Rectangle65"></div>
+            <div class="Group14">
+                <div class="Ellipse12"></div>
+                <div class="GroupNumber">{{ $goal->id }}</div>
+            </div>
+            <div class="GoalText">
+                {{ $goal->title_en }}
+            </div>
+        </div>
+    @endforeach
 
         </div>
 
