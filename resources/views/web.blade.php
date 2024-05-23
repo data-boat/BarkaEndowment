@@ -255,7 +255,7 @@
         <div style=" width: 1300px; height: 360px;">
 
              @foreach ($objectives as $index => $goal)
-        <div class="Goals" style="top: {{ 1721 + ($index * 159) }}px; left: {{ 740 - ($index % 2) * 592 }}px;">
+        <div class="Goals" style="top: {{ 1720 + ($index * 80) }}px; left: {{ 720 - ($index % 2) * 492 }}px;">
             <div class="Rectangle65"></div>
             <div class="Group14">
                 <div class="Ellipse12"></div>
