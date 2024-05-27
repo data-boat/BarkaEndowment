@@ -13,7 +13,7 @@
                     <li> <a href="/home" class="w3-bar-item w3-button">{{ __('Home') }}</a></li>
                     <li><a href="/about" class="w3-bar-item w3-button">{{ __('AboutUs') }}</a></li>
                     <li><a href="/services" class="w3-bar-item w3-button">{{ __('VISION') }}</a></li>
-                    {{-- <li><a href="/objective" class="w3-bar-item w3-button">{{ __('OBJECTIV') }}</a></li> --}}
+                    <li><a href="/objectives" class="w3-bar-item w3-button">{{ __('OBJECTIV') }}</a></li>
 
 
 

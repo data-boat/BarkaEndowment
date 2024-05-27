@@ -54,8 +54,8 @@ nav ul li a {
     position: relative;
     color: #ffbc00;
     text-decoration: none;
-    font-size: 18px;
-    padding-left: 62px;
+    font-size: 15px;
+    /* padding-left: 62px; */
     font-weight: 500;
     display: block;
     width: 100%;
@@ -86,7 +86,7 @@ nav ul ul li {
     border-bottom: none;
 }
 nav ul ul li a {
-    font-size: 17px;
+    font-size: 14px;
     color: #e6e6e6;
     padding-right: 80px;
 }

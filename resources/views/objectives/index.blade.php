@@ -27,30 +27,36 @@
   <div class="main-wrapper-onepage main oh">
     <!-- Blog Single -->
     <section class="section-wrap pb-100 blog-single">
-      <div class="container relative">
-
-            <!-- standard post -->
-        <h1 class="form-group title">Objectives</h1>
-    <a class="form-group title"href="{{ route('objectives.create') }}">Create New Objective</a>
-    <ul class="form-group title">
+      <table class="tabl">
+        <tr>
+                   <h1 class="form-group title">Objectives</h1>
+                   <a class="form-group title"href="{{ route('objectives.create') }}">Create New Objective</a>
+  
+        </tr>
         @foreach ($objectives as $objective)
-            <li>
-                {{ $objective->title_en }} / {{ $objective->title_ar }}
-                <a href="{{ route('objectives.edit', $objective->id) }}">Edit</a>
-                <form action="{{ route('objectives.destroy', $objective->id) }}" method="POST">
-                    @csrf
-                    @method('DELETE')
-                    <button type="submit">Delete</button>
-                </form>
-            </li>
-        @endforeach
-    </ul>
-            <!-- end entry item -->
-          </div>
+        <tr>
+            <td> {{ $objective->title_ar }}</td>
+            <td>{{ $objective->title_en }} </td>
 
-      <!-- end container -->
+            <td>
+                <a href="{{ route('objectives.edit', $objective->id) }}">Edit</a>
+              </td>
+            <td>
+              <form action="{{ route('objectives.destroy', $objective->id) }}" method="POST">
+                @csrf
+                @method('DELETE')
+                <button type="submit">Delete</button>
+            </form>
+          </td>
+  
+        </tr>
+  
+        @endforeach
+    </table>
+  
     </section>
-    <!-- end blog single -->
+
+
 </div>
   </main>
 </body>

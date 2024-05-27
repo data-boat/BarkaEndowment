@@ -48,71 +48,16 @@
             </div>
 
             <br />
-            {{-- <div>
-                <label class="labell ">{{ __('Sectorimg') }}</label><br />
-                <input class="file" type="file" name="file_path" value="{{$services->file_path}}"><img style="width: 50px; height: 50px ;" src="{{url('../storage/services/'.$services->file_path)}}" /></input>
-            </div>
-            <br />            <br />
-            <br /> --}}
+           
 
             <div>
                 <label class="labell required" require>{{ __('Sectoricon') }}</label><br />
                 <input class="file" type="file" name="icon" value="{{$services->icon}}"><img style="width: 50px; height: 50px" src="{{url('../storage/services/'.$services->icon)}}" /></input>
             </div>
-            {{-- <br />            <br />
+           
             <br />
 
-            <div>
-                <label class="labell required">{{ __('Sectorby') }}</label><br />
-                <input class="edit" type="text" name="By" value="{{$services->By}}" required>
-            </div>
-            <br />
-            <div>
-                <label class="labell required">{{ __('Sectorbyar') }}</label><br />
-                <input class="edit" type="text" name="Byar" value="{{$services->Byar}}" required>
-            </div>
-            <br />
-            <div>
-                <label class="labell ">{{ __('Sectorinto') }}</label><br />
-                <textarea class="edit" id="story" name="DesHeader">@isset($services){{$services->DesHeader}}@else @endIf</textarea>
-            </div>
-
-            <br />
-            <div>
-                <label class="labell ">{{ __('Sectorintoar') }}</label><br />
-                <textarea class="edit" id="story" name="DesHeaderar">@isset($services){{$services->DesHeaderar}}@else @endIf</textarea>
-            </div>
-
-            <br />
-            <div>
-                <label class="labell ">{{ __('Sectorbody') }}</label><br />
-                <textarea class="edit" id="story" name="DesBody">@isset($services){{$services->DesBody}}@else @endIf</textarea>
-            </div>
-
-            <br />
-            <div>
-                <label class="labell ">{{ __('Sectorbodyar') }}</label><br />
-                <textarea class="edit" id="story" name="DesBodyar">@isset($services){{$services->DesBodyar}}@else @endIf</textarea>
-            </div>
-
-            <br />
-            <div>
-                <label class="labell ">{{ __('Sectorcon') }}</label><br />
-                <textarea class="edit" id="story" name="DesFooter">@isset($services){{$services->DesFooter}}@else @endIf</textarea>
-            </div>
-
-            <br />
-            <div>
-                <label class="labell ">{{ __('Sectorconar') }}</label><br />
-                <textarea class="edit" id="story" name="DesFooterar">@isset($services){{$services->DesFooterar}}@else @endIf</textarea>
-            </div>
-
-            <br />
-            <div>
-                <label class="labell ">{{ __('Date') }}</label><br />
-                <input class="edit" type="date" name="Date" value="{{$services->Date}}">
-            </div> --}}
-            <br />
+            
             <div class="btndiv">
                 <button class="btnedit submit-code" type="submit">{{ __('submit') }}</button>&nbsp;&nbsp;&nbsp;<button class="btnedit"><a href="/services">{{ __('Back') }}</a></button>
             </div><br><br><br>

@@ -160,7 +160,7 @@
         <div class="container" id="Sectors">
             <div class="row heading">
                 <div class="col-md-6 col-md-offset-3">
-                    <h2 class="text-center bottom-line">قطاعتنا</h2>
+                  <h2 class="text-center bottom-line">{{ __('map') }}</h2>
 
                 </div>
             </div>
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                     @else
-                        <div class="col-md-3 serv-item">
+                        <div class="col-md-3 serv-item" dir="rtl">
                             <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
                                 <div class="con">
                                     <span class="circle">

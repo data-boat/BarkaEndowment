@@ -32,13 +32,13 @@
         @method('PUT')
         <div>
             <label class="form-group title"for="title_en">Title (English):</label>
-            <input class="form-group title"type="text" id="title_en" name="title_en" value="{{ $objective->title_en }}" required>
+            <textarea class="edit form-group title"type="text" id="title_en" name="title_en" required>{{ $objective->title_en }}</textarea>
         </div>
         <div>
             <label class="form-group title"for="title_ar">Title (Arabic):</label>
-            <input class="form-group title"type="text" id="title_ar" name="title_ar" value="{{ $objective->title_ar }}" required>
+            <textarea class="edit form-group title"type="text" id="title_ar" name="title_ar" required>{{ $objective->title_ar }}</textarea>
         </div>
-        <button class="form-group title"type="submit">Save</button>
+        <button class="btnedit submit-code"type="submit">Save</button>
     </form>
     <a class="form-group title"href="{{ route('objectives.index') }}">Back to List</a>
     </main>

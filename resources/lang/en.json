@@ -87,7 +87,7 @@
     "Agriculture": "MISSION",
     "Industrial": "Industrial sector",
     "Real": "Real estate sector",
-    "Investment": "VISION",
+    "VISION": "VISION",
     "name": "name * ",
     "invesrotemail": "email * ",
     "number": "phone number * (with country code)",
