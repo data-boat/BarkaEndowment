@@ -23,15 +23,10 @@ class WebController extends Controller
         $service = PagesService::all();
         $objectives = Objective::all();
 
-        $goals = [
-        (object)[ 'top' => 1721, 'left' => 740, 'number' => 1, 'title_en' => 'تمكين المجتمع بكافة أطيافه من المساهمة في انشاء المشاريع الوقفية والإشراف عليها وإدارتها وتنميتها بالطرق المثلى لتكون صدقة جارية للواقف' ],
-        (object)[ 'top' => 1721, 'left' => 148, 'number' => 2, 'title_en' => 'test' ],
-        (object)[ 'top' => 1880, 'left' => 60,  'number' => 4, 'title_en' => 'إدارة واستثمار وإنشاء الأصول الوقفية وتطويرها وتجديد دورها التنموي للانتقال بها من فكرة الإنفاق المباشر إلى ايجاد المصدر المالي المستدام الداعم لمختلف' ],
-        (object)[ 'top' => 1880, 'left' => 680, 'number' => 3, 'title_en' => 'إعادة تنظيم الأوقاف القديمة بالولاية وتحديثها والانتقال بها من الإدارة الفردية إلى العمل المؤسسي المتكامل.' ]
-    ];
+
 
         // $web = Web::all();
-        return view('/web', compact('home', 'about', 'result', 'service','objectives','goals'));
+        return view('/web', compact('home', 'about', 'result', 'service','objectives'));
     }
 
     /**
