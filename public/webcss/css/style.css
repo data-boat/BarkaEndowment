@@ -1297,7 +1297,7 @@ p {
 }
 .serv-item-box
     p {
-        font-size: 18px;
+        font-size: 14px;
         color: #050505;
         font-weight: normal;
         line-height: 25px;
@@ -1309,7 +1309,7 @@ p {
     border-color: #333;
     }
 
-    
+
 /*Hi Icons*/
 .hi-icon {
     display: inline-block;

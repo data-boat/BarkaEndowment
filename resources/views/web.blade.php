@@ -173,7 +173,7 @@
                             <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
                                 <div class="con">
                                     <span class="circle">
-                                        <span> {{ $object->id }}</span>
+                                        <span> {{$loop->index + 1}}</span>
                                     </span>
                                 </div>
                                 <p>
@@ -186,7 +186,7 @@
                             <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
                                 <div class="con">
                                     <span class="circle">
-                                        <span> {{ $object->id }}</span>
+                                        <span> {{$loop->index + 1}}</span>
                                     </span>
                                 </div>
                                 <p>
