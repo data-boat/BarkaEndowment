@@ -18,7 +18,7 @@
     }
     .service-item-box,
     .team-member,
-    .blog-col-3 {
+    .blog-col-4 {
         margin-bottom: 40px;
     }
 }
@@ -382,6 +382,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-left: 95px;
     }
     #navbar-collapse {
         justify-content: center;
@@ -420,6 +421,8 @@
     }
     .hero-subtitle {
         padding-left: 24px;
+        padding-top: 405px;
+
     }
 }
 

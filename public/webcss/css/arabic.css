@@ -828,6 +828,51 @@ p {
     border-color: #333;
     }
 
+/* Services
+  -------------------------------------------------------*/
+  .serv-item-box {
+    background-color:#fff ;
+    border: outset ;
+    border-color: #0B826F;
+    padding: 40px ; 
+    /* margin-bottom: 15px; */
+    /* height: 430px;
+    width: 265px; */
+}
+.serv-item-box h1 {
+    color: #1c3f39;
+    font-size: 18px;
+  
+}
+.serv-item-box h3 {
+    color: #1c3f39;
+    font-size: 18px;
+}
+.serv-item-box > a {
+    display: inline-block;
+    margin-bottom: 27px;
+}
+.serv-item-box i {
+    display: block;
+    font-size: 24px;
+    line-height: 70px;
+    color: #fff;
+}
+.serv-item-box
+    p {
+        font-size: 18px;
+        color: #050505;
+        font-weight: normal;
+        line-height: 25px;
+        direction: rtl;
+}
+.serv-item-box a:hover i {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    }
+
+
 
 /*Hi Icons*/
 .hi-icon {

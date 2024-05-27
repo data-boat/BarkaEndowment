@@ -2,122 +2,40 @@
 <html lang="en">
     <head>
      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"  />  
-          <style>
-     .Goals {
-    width: 480px;
-    height: 90px;
-    border-radius: 68px;
-    position: absolute;
-    box-shadow: 4.5317px 9.0634px 9.0634px rgba(0, 0, 0, 0.25);
-}
+         
+         
+         
+         <style>
+  .con { 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-evenly; 
+            padding: 16px;
+        } 
+  
+        .circle { 
+            display: inline-block; 
+            line-height: 0px; 
+            border-radius: 50%; 
+            font-size: 32px; 
+            background-color: #0B826F; 
+            color: white; 
+        } 
+  
+        .circle span { 
+            display: inline-block; 
+            padding-top: 50%; 
+            padding-bottom: 50%; 
+            margin-left: 8px; 
+            margin-right: 8px; 
+        } 
 
-.Rectangle65 {
-    width: 480px;
-    height: 90px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: white;
-    border-radius: 72.51px;
-}
 
-.Group14 {
-    width: 114.57px;
-    height: 139px;
-    left: 620.84px;
-    top: 1.81px;
-    position: absolute;
-}
 
-.Ellipse12 {
-    width: 60px;
-    height: 60px;
-    left: -210px;
-    top: 13px;
-    position: absolute;
-    background: #0B826F;
-    border-radius: 9999px;
-}
-
-.GroupNumber {
-    left: -186px;
-    top: -25px;
-    position: absolute;
-    text-align: right;
-    color: rgb(252, 251, 251);
-    font-size: 30px;
-    font-family: Pragati Narrow;
-    font-weight: 700;
-    text-transform: capitalize;
-    line-height: 138.95px;
-    word-wrap: break-word;
-}
-
-.GoalText {
-    width: 560.12px;
-    height: 90.63px;
-    left: -156px;
-    top: 26.28px;
-    position: absolute;
-    text-align: right;
-    color: black;
-    font-size: 15px;
-    font-family: Poppins;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 23px;
-    word-wrap: break-word;
-}
-
-/* Responsive Styles */
-@media (max-width: 1200px) {
-    .Goals {
-        width: 360px;
-        height: 70px;
-    }
-    .Rectangle65 {
-        width: 360px;
-        height: 70px;
-    }
-    .GoalText {
-        width: 420px;
-        font-size: 12px;
-    }
-    .Ellipse12 {
-        width: 50px;
-        height: 50px;
-        left: -160px;
-        top: 10px;
-    }
-    .GroupNumber {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 768px) {
-    .Goals {
-        width: 320px;
-        height: 60px;
-    }
-    .Rectangle65 {
-        width: 320px;
-        height: 60px;
-    }
-    .GoalText {
-        width: 380px;
-        font-size: 10px;
-    }
-    .Ellipse12 {
-        width: 40px;
-        height: 40px;
-        left: -140px;
-        top: 8px;
-    }
-    .GroupNumber {
-        font-size: 20px;
-    }
-}
     </style>
+
+
+
     </head>
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
 <!-- Navigation -->
@@ -237,7 +155,103 @@
     </div>
   </section>
 
-  <section class="section-wrap process " style="
+
+ 
+  <section class="section-wrap process" style=" background-color:#f4f4f7 ; padding-: 5px;
+  ">
+    <div class="container" id="Sectors">
+      <div class="row heading">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="text-center bottom-line">قطاعتنا</h2>
+
+        </div>
+      </div>
+
+      <div class="row">
+                <div class="col-md-3 serv-item">
+
+                  
+          <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
+
+            <div class="con"> 
+              <span class="circle"> 
+                  <span>4</span> 
+              </span> 
+          </div> 
+
+            <h3>
+                            القطاع الزراعي
+                          </h3>
+            <p>
+                            يعتبر القطاع الزراعي واحد من أهم القطاعات التي استثمرت فيها المجموعة منذ البدايات،و يعتبر واحد من القطاعات 
+                          </p>
+
+          </div>
+        </div>
+                <div class="col-md-3 serv-item">
+          <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
+
+            <div class="con"> 
+              <span class="circle"> 
+                  <span>3</span> 
+              </span> 
+          </div> 
+            <h3>
+                            القطاع الاستثماري
+                          </h3>
+            <p>
+                            من الأساسات التي اعتمدتها المجموعة هي الشراكات الاستثمارية مع مختلف الشركات الكبيرة أو حتى الناشئة
+                          </p>
+
+          </div>
+        </div>
+                <div class="col-md-3 serv-item">
+          <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
+           
+            
+            <div class="con"> 
+              <span class="circle"> 
+                  <span>2</span> 
+              </span> 
+          </div> 
+
+            <h3>
+                            القطاع الصناعي
+                          </h3>
+            <p>
+                            يشهد القطاع الصناعي نمو كبير ومنقطع النظير في منطقة الخليج العربي والشرق الأوسط والذي دفع الشركة منذ القدم 
+                          </p>
+
+          </div>
+        </div>
+                <div class="col-md-3 serv-item">
+          <div class="serv-item-box icon-effect-1 icon-effect-1a text-center">
+
+            <div class="con"> 
+              <span class="circle"> 
+                  <span>1</span> 
+              </span> 
+          </div> 
+
+            <h3>
+                            القطاع العقاري
+                          </h3>
+            <p>
+                            أمنت الشركة بتوثيق أعمالها ، و أموالها من خلال العمل على مختلف المشاريع العقارية المهمة في مختلف دول العالم
+                          </p>
+
+          </div>
+        </div>
+                <!-- end service item -->
+      </div>
+    </div>
+    
+    
+  </section>
+
+
+
+  {{-- <section class="section-wrap process " style="
    background: #e5e5e5;" id="Companies">
     <div class="container">
       <div class="row heading">
@@ -272,7 +286,7 @@
       </div>
 
   
-  </section>
+  </section> --}}
 
 <!-- Contact -->
 <section class="section-wrap process" id="contact" style="background-image: url(webcss/img/pattern.png)" >
