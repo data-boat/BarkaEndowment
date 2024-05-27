@@ -113,7 +113,7 @@
 
 
   <section class="section-wrap process " style="padding-bottom: 134px; background-image: url(webcss/img/Maskgroup.png)">
-    <div class="container" id="Sectors">
+    <div class="" id="Sectors">
       <div class="row heading">
         <div class="col-md-6 col-md-offset-3">
           <h2 class="text-center bottom-line">{{ __('oursectors') }}</h2>
